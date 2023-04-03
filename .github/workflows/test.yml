@@ -65,3 +65,10 @@ jobs:
         conda activate test-environment
         cd builddir
         meson test
+
+    - name: Archive build artifacts
+      uses: actions/upload-artifact@v3
+      with: 
+        name: ${{ matrix.os }}
+        path: builddir/*
+        retention-days: 7
