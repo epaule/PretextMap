@@ -2063,7 +2063,7 @@ MainArgs
     if (highRes)
     {
         Max_Image_Depth = 16;
-        Single_Texture_Resolution = 11;
+        Single_Texture_Resolution = 12;
         PrintStatus("Running in high resolution mode");
     }
 
