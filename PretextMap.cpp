@@ -2057,13 +2057,13 @@ MainArgs
 
     InitialiseMutex(Working_Set_rwMutex);
 
-    CreateMemoryArena(Working_Set, GigaByte((u64)(highRes ? 32 : 3)));
+    CreateMemoryArena(Working_Set, GigaByte((u64)(highRes ? 16 : 3)));
     Thread_Pool = ThreadPoolInit(&Working_Set, 3);
 
     if (highRes)
     {
-        Max_Image_Depth = 32;
-        Single_Texture_Resolution = 22;
+        Max_Image_Depth = 16;
+        Single_Texture_Resolution = 12;
         PrintStatus("Running in high resolution mode");
     }
 
