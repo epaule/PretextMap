@@ -389,7 +389,7 @@ global_variable
 u32
 Max_Image_Depth = 15;
 
-#define Min_Image_Depth 10
+#define Min_Image_Depth 11
 #define Number_of_LODs (Max_Image_Depth - Min_Image_Depth + 1)
 #define Pixel_Resolution(depth) (1 << (depth))
 
