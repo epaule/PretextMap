@@ -2057,7 +2057,7 @@ MainArgs
 
     InitialiseMutex(Working_Set_rwMutex);
 
-    CreateMemoryArena(Working_Set, GigaByte((u64)(highRes ? 64 : 3)));
+    CreateMemoryArena(Working_Set, GigaByte((u64)(highRes ? 17 : 3)));
     Thread_Pool = ThreadPoolInit(&Working_Set, 3);
 
     if (highRes)
