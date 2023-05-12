@@ -387,7 +387,7 @@ Min_Map_Quality = 10;
 
 global_variable
 u32
-Max_Image_Depth = 15;
+Max_Image_Depth = 13;
 
 #define Min_Image_Depth 10
 #define Number_of_LODs (Max_Image_Depth - Min_Image_Depth + 1)
@@ -1710,7 +1710,7 @@ ContrastEqualisation(void *in)
 
 global_variable
 u32
-Single_Texture_Resolution = 10;
+Single_Texture_Resolution = 9;
 
 global_variable
 texture_buffer_queue *
